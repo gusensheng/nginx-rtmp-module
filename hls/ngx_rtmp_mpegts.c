@@ -72,7 +72,7 @@ static u_char ngx_rtmp_mpegts_header[] = {
 
 
 /* 700 ms PCR delay */
-#define NGX_RTMP_HLS_DELAY  63000
+#define NGX_RTMP_HLS_DELAY  0 /*change 63000 to 0 by lvgusen@gmail.com*/
 
 
 static ngx_int_t
